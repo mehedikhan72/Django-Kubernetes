@@ -1,2 +1,4 @@
 venv/
 web/.env
+.kube/
+web/.env.prod
