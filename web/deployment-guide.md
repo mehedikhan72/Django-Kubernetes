@@ -49,7 +49,7 @@ then run
 
 
 ```
-kubectl exec -it django-k8s-web-deployment-87cbdd997-bjntb -- bash /app/migrate.sh
+kubectl exec -it $SINGLE_POD_NAME -- bash /app/migrate.sh
 ```
 
 
